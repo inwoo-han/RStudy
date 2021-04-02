@@ -5,5 +5,5 @@ AREA <- c("서울","경기","제주","서울","서울","서울","경기","서울
 
 # ID, SEX, AGE, AREA 변수를 포함한 데이터 프레임 구조로 dataframe_ex 데이터 세트에 저장
 dataframe_ex <- data.frame(ID, SEX, AGE, AREA)
-dataframe_ex
+View(dataframe_ex)
 str(dataframe_ex)
