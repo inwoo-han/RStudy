@@ -26,3 +26,6 @@ library(treemap)
 
 # 동이름 열(.)과 치킨집 개수 열(Freq)로 트리맵 표현현
 treemap(addr_count, index = ".", vSize = "Freq", title = "서대문구 동별 치킨집 분포")
+
+# 내림차순으로 실제 데이터 확인
+arrange(addr_count, desc(Freq)) %>% head()
