@@ -25,3 +25,5 @@ var(x2)
 sd(x2)
 kurtosi(x2)
 skew(x2)
+
+install.packages('reshape')

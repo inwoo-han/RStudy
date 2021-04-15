@@ -29,3 +29,5 @@ View(aq_dcast)
 
 acast(aq_melt, day ~ month ~ variable)
 acast(aq_melt, month ~ variable, mean)
+
+#remove(airquality)
