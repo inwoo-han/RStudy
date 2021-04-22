@@ -6,3 +6,6 @@ googleAPIkey = "AIzaSyCt_XUxKwxSoVcLwO-8lFdN-Zl_NESb1p0"
 register_google(googleAPIkey)
 gg_seoul <- get_googlemap("seoul", maptype = "terrain")
 ggmap(gg_seoul)
+
+
+# https://carrot-woo.tistory.com/15
