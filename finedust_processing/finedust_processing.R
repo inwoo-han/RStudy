@@ -1,7 +1,9 @@
+install.packages("readxl")
 library(readxl)
+install.packages("dplyr")
 library(dplyr)
 
-dustdata <- read_excel("D:/RStudy/RStudy/finedust_processing/dustdata.xlsx")
+dustdata <- read_excel("c:/RStudy/finedata.xlsx")
 View(dustdata)
 str(dustdata)
 
